@@ -159,7 +159,7 @@ const questions = {
         
         //Assume you have a Person Schema with a name property
         
-        const removePerson = (name) => {
+        const removePerson = (name) => { 
             let p = Person.findOneAndDelete({
                 name: name
             })
